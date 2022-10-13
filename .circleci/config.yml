@@ -8,11 +8,12 @@ jobs:
     steps:
       - checkout
       - run:
-        name: "Lint"
-        command: crystal tool format --check
+          name: "Lint"
+          command: crystal tool format --check
       - run:
-        name: "Run specs"
-        command: crystal spec
+          name: "Run specs"
+          command: crystal spec
 workflows:
   test:
-    - run-tests
+    jobs:
+      - run-tests
