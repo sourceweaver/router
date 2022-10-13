@@ -83,7 +83,7 @@ web_server.draw_routes
 web_server.run
 ```
 
-See [sample](https://github.com/sourceweaver/router/blob/master/sample/sample.cr) and [tips]([sample](https://github.com/sourceweaver/router/blob/master/sample/tips.cr)) for details.
+See [samples](https://github.com/sourceweaver/router/blob/master/samples/sample.cr) and [tips]([samples](https://github.com/sourceweaver/router/blob/master/samples/tips.cr)) for details.
 
 ### Path parameters
 
@@ -101,7 +101,7 @@ class WebServer
 end
 ```
 
-See [sample](https://github.com/sourceweaver/router/blob/master/sample/sample.cr) and [tips]([sample](https://github.com/sourceweaver/router/blob/master/sample/tips.cr)) for details.
+See [samples](https://github.com/sourceweaver/router/blob/master/samples/sample.cr) and [tips]([samples](https://github.com/sourceweaver/router/blob/master/samples/tips.cr)) for details.
 
 
 ## Contributors
