@@ -1,3 +1,6 @@
+require "radix"
+require "http/server"
+
 module Router
   class RouteHandler
     include HTTP::Handler
