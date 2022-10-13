@@ -1,8 +1,6 @@
+# router
 
-[![Build Status](https://travis-ci.org/tbrand/router.cr.svg?branch=master)](https://travis-ci.org/tbrand/router.cr)
-[![GitHub tag](https://img.shields.io/github/tag/tbrand/router.cr.svg)](https://github.com/tbrand/router.cr/tags)
-
----
+[![Build Status](https://dl.circleci.com/status-badge/img/gh/sourceweaver/router/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/sourceweaver/router/tree/master)
 
 ## Installation
 
@@ -11,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   router:
-    github: tbrand/router.cr
+    github: sourceweaver/router
 ```
 
 ## Usage
@@ -85,7 +83,7 @@ web_server.draw_routes
 web_server.run
 ```
 
-See [sample](https://github.com/tbrand/router.cr/blob/master/sample/sample.cr) and [tips]([sample](https://github.com/tbrand/router.cr/blob/master/sample/tips.cr)) for details.
+See [sample](https://github.com/sourceweaver/router/blob/master/sample/sample.cr) and [tips]([sample](https://github.com/sourceweaver/router/blob/master/sample/tips.cr)) for details.
 
 ### Path parameters
 
@@ -103,15 +101,8 @@ class WebServer
 end
 ```
 
-See [sample](https://github.com/tbrand/router.cr/blob/master/sample/sample.cr) and [tips]([sample](https://github.com/tbrand/router.cr/blob/master/sample/tips.cr)) for details.
+See [sample](https://github.com/sourceweaver/router/blob/master/sample/sample.cr) and [tips]([sample](https://github.com/sourceweaver/router/blob/master/sample/tips.cr)) for details.
 
-## Contributing
-
-1. Fork it ( https://github.com/tbrand/router.cr/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
 
 ## Contributors
 
