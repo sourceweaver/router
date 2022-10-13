@@ -1,7 +1,7 @@
 require "./handler"
 
 module Router
-  VERSION = "0.2.7"
+  VERSION = "0.1.1"
   alias Action = HTTP::Server::Context, Hash(String, String) -> HTTP::Server::Context
   alias RouteContext = NamedTuple(action: Action, params: Hash(String, String))
 

@@ -104,6 +104,6 @@ end
 See [samples](https://github.com/sourceweaver/router/blob/master/samples/sample.cr) and [tips]([samples](https://github.com/sourceweaver/router/blob/master/samples/tips.cr)) for details.
 
 
-## Contributors
+## License
 
-- [tbrand](https://github.com/tbrand) Taichiro Suzuki - creator, maintainer
+*router* is a fork of [router.cr](https://github.com/tbrand/router.cr). Both projects are MIT licensed.
