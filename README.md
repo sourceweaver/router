@@ -10,6 +10,7 @@ Add this to your application's `shard.yml`:
 dependencies:
   router:
     github: sourceweaver/router
+    version: 0.1.1
 ```
 
 ## Usage
@@ -20,7 +21,7 @@ dependencies:
 require "router"
 ```
 
-Include `Router` to utilize **router.cr**.
+Include `Router` to utilize **router**.
 ```crystal
 class WebServer
   include Router
@@ -47,14 +48,14 @@ class WebServer
 
   def draw_routes
     get "/" do |context, params|
-      context.response.print "Hello router.cr!"
+      context.response.print "Hello router!"
       context
     end
   end
 end
 ```
 
-Here we've defined a GET route at root path (/) that just print out "Hello router.cr" when we get access.
+Here we've defined a GET route at root path (/) that just print out "Hello router" when we get access.
 To activate (run) the route, just define run methods for your server with route_handler
 ```crystal
 class WebServer
@@ -62,7 +63,7 @@ class WebServer
   
   def draw_routes
     get "/" do |context, params|
-      context.response.print "Hello router.cr!"
+      context.response.print "Hello router!"
       context
     end
   end
