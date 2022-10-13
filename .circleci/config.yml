@@ -8,6 +8,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: "Install dependencies"
+          command: shards install
+      - run:
           name: "Lint"
           command: crystal tool format --check
       - run:
