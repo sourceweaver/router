@@ -1,15 +1,8 @@
-<img src="https://cloud.githubusercontent.com/assets/3483230/25668495/c3c28574-3061-11e7-9dbd-969d95eb4bf8.png" width="200" />
 
 [![Build Status](https://travis-ci.org/tbrand/router.cr.svg?branch=master)](https://travis-ci.org/tbrand/router.cr)
 [![GitHub tag](https://img.shields.io/github/tag/tbrand/router.cr.svg)](https://github.com/tbrand/router.cr/tags)
 
 ---
-
-The default web server of the Crystal is quite good :smile: but it weak at routing :cry:.  
-Kemal or other web frameworks written in Crystal are awesome :smile:, but it's too fat for some purpose :cry:.
-
-**router.cr** is a **minimum** but **High Performance** middleware for Crystal web server.  
-See the amazing performance of **router.cr** [here](https://github.com/tbrand/which_is_the_fastest).:rocket:
 
 ## Installation
 

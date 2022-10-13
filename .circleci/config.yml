@@ -1,0 +1,18 @@
+version: 2.1
+
+jobs:
+  run-tests:
+    docker:
+      - image: crystallang/crystal:1.6.0-alpine
+    resource_class: large
+    steps:
+      - checkout
+      - run:
+        name: "Lint"
+        command: crystal tool format --check
+      - run:
+        name: "Run specs"
+        command: crystal spec
+workflows:
+  test:
+    - run-tests
