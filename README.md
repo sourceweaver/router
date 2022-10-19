@@ -88,7 +88,7 @@ See [samples](https://github.com/sourceweaver/router/blob/master/samples/sample.
 
 ### Path parameters
 
-`params` is a Hash(String, String) that is used when you define a path parameters such as `/user/:id` (`:id` is a parameters). Here is an example.
+`params` is a Hash(String, String) that is used when you define a path parameters such as `/user/:id` (`:id` is the parameter). Here is an example.
 ```crystal
 class WebServer
   include Router
